@@ -54,13 +54,13 @@ public class Pattern {
         //     System.out.print("\n");}
 
         //Pattern 6
-        for(int i=0;i<5;i++){
-            for(int j =0;j<=i;j++){
-                System.out.print(j+1);
-            }
-            System.out.print("\n");
+        // for(int i=0;i<5;i++){
+        //     for(int j =0;j<=i;j++){
+        //         System.out.print(j+1);
+        //     }
+        //     System.out.print("\n");
 
-        }
+        // }
         
         //Pattern 7
         // int n = 5;
@@ -72,6 +72,40 @@ public class Pattern {
             
 
         // }
+ 
+        //Pattern 8
+        // int n = 5;
+        // int k = 1;
+        // for(int i =0 ;i<n;i++){
+        //     for(int j =0;j<=i;j++){
+        //         System.out.print(k);
+        //         System.out.print(" ");
+        //         k++;
+                
+        //     }
+            
+        //     System.out.print("\n");
+        // }  
+
+        //Pattern 9
+        int n = 5;
+        int k = 1;
+        for(int i =0 ;i<n;i++){
+            for(int j =0;j<=i;j++){
+                if(k%2==0){
+                System.out.print("0");
+                System.out.print(" ");}
+                else{
+                    System.out.print("1");
+                    System.out.print(" ");
+                }
+                k++;
+                
+            }
+            
+            System.out.print("\n");
+        }
+        
 
 
 
