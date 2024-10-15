@@ -1,4 +1,5 @@
-package JavaPat.basic;
+package JavaPat;
+
 
 public class Pattern {
 
