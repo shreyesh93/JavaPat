@@ -50,6 +50,7 @@ public class ADPattern {
         // }
 
         //ADQ2
+        
         // int n = 4;
         // for(int i = 1;i<=n;i++){
         //     for(int j=1;j<=n-i;j++){
@@ -63,34 +64,37 @@ public class ADPattern {
         //        System.out.println();
 // }
 
-        int n = 4;
-        for(int i = 1;i<=n;i++){
-            if(i>=1 && i <=n ){
-            for(int j=1;j<=n-i;j++){
-                System.out.print(" ");
-            }
-            if(i>1){
-            for(int j=1;j<=i;j++){
-                System.out.print(j);}}
+
+        //  ADQ3 Pattern 3
+
+        // int n = 4;
+        // for(int i = 1;i<=n;i++){
+        //     if(i>=1 && i <=n ){
+        //     for(int j=1;j<=n-i;j++){
+        //         System.out.print(" ");
+        //     }
+        //     if(i>1){
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print(j);}}
             
-                    System.out.print("1");
-                    System.out.println();}
-        }
-        int k =4;
-        for(int i = 1;i<=k;i++){ 
+        //             System.out.print("1");
+        //             System.out.println();}
+        // }
+        // int k =4;
+        // for(int i = 1;i<=k;i++){ 
             
-            for(int j=1;j<=i;j++){
-                        System.out.print(" ");
-                    }
-            for(int j=1;j<=k-i;j++){
-                    System.out.print(j);}
-            if(i>=1 && i<3 ){
-                System.out.print("1");
+        //     for(int j=1;j<=i;j++){
+        //                 System.out.print(" ");
+        //             }
+        //     for(int j=1;j<=k-i;j++){
+        //             System.out.print(j);}
+        //     if(i>=1 && i<3 ){
+        //         System.out.print("1");
             
-            }
-            System.out.println();
+        //     }
+        //     System.out.println();
             
-            }
+        //     }
             
             
         }}
