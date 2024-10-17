@@ -34,46 +34,85 @@ public class Funct {
     // }
 
 
-    //
-    int l,o,p = 0;
-    Scanner sc = new Scanner(System.in);
+    //3. Number of 0's, +v'es and -v'es present in user input
+
+    // int l,o,p = 0;
+    // Scanner sc = new Scanner(System.in);
+    // public void ff(){
+        
+    //     System.out.println("Enter how many numbers:");
+    //     int a = sc.nextInt();
+    //     int [] arr= new int[a];
+    //     for(int i = 0;i<a;i++){
+    //         System.out.println("Enter number" +" "+ i + " "+":");
+    //         int n = sc.nextInt();
+    //         arr[i] = n;
+    //     }
+    //     System.out.println();
+    //     System.out.println("elements in array are:");
+    //     for(int kk:arr){
+    //         System.out.print(kk);
+    //         System.out.print(" ");
+    //     }
+    //     for(int b:arr){
+    //         if(b==0){
+    //             l++;
+    //         }
+    //         else if(b>0){
+    //             o++;
+    //         }
+    //         else{
+    //             p++;
+    //         }
+    //     }
+    //     System.out.println("\nNumber of zeros are"+" "+l+ "\n"+ "Number of positive are"+" "+o+ "\n"+"Number of zeros are"+" "+p); 
+    // }
+    // public static void main(String[] args) {
+    //     Funct f = new Funct();
+    //     f.ff();
+    //     }
+
+
+    //4. To print power of a number
+
+    // public int ff(int a , int b){
+    //     int result =1;
+    //     for(int i  =0;i<b;i++){
+    //         result *= a;
+    //     }
+    //     return result;
+    // }
+    // public static void main(String[] args) {
+    //     Funct f = new Funct();
+    //     System.out.println(f.ff(4, 2));
+    //     // f.ff();
+    //     }
+
+
+Scanner sc = new Scanner(System.in);
     public void ff(){
+        int a = 0;
+        int b = 1;
+        int c = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a no:");
+        int n = sc.nextInt();
+        System.out.print(a + " "+b+ " ");
         
-        System.out.println("Enter how many numbers:");
-        int a = sc.nextInt();
-        int [] arr= new int[a];
-        for(int i = 0;i<a;i++){
-            System.out.println("Enter number" +" "+ i + " "+":");
-            int n = sc.nextInt();
-            arr[i] = n;
-
-        }
-        System.out.println();
-        System.out.println("elements in array are:");
-        for(int kk:arr){
-            
-            System.out.print(kk);
+        for(int i =0;i<n-2;i++){
+            c = a + b;
+            System.out.print(c);
             System.out.print(" ");
+            a = b;
+            b =c;
+            c= 0;
         }
-        for(int b:arr){
-            if(b==0){
-                l++;
-            }
-            else if(b>0){
-                o++;
-            }
-            else{
-                p++;
-            }
-        }
-        System.out.println("\nNumber of zeros are"+" "+l+ "\n"+ "Number of positive are"+" "+o+ "\n"+"Number of zeros are"+" "+p);
-        
     }
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Funct f = new Funct();
         f.ff();
         }
+   
     }
 
     
