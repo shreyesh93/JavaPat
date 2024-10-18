@@ -1,2 +1,2 @@
-# JavaPat
-Learning Java
+# JavaStudy
+Learning Java and Practising
